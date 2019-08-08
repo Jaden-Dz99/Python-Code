@@ -1,3 +1,9 @@
+
+#   Author:         Jaden Dzubiel
+#   Date Created:   2019/05/06
+#   Description:    Manipulation of excel spreadsheets via pandas
+#                   package and python scripts.
+
 #______________________________________________________________
             #INSTALLATION REQUIREMENTS / COMMANDS
 #______________________________________________________________
@@ -18,7 +24,7 @@ data_frame = pd.read_excel('C:/Users/USER/Desktop/python.xlsx', index_col=None, 
 
 
 
-data_frame[2,3] = 59  # Over writes data on cmd not excel (seems to delete the whole row)
+data_frame[2,3] = 59
 
 def change_value_cell(cell):
     if cell==59:
